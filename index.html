@@ -1,14 +1,46 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>清华大学无54班官方网站</title>
 </head>
 <body>
-<h1>無54 Family</h1>
-<p>Powered by wuch15</p>
+
 </body>
-<img src="logo.png" width="250" height="165">
+<canvas id="myCanvas" width="1000" height="130" style="border:1px solid #FFFFFF;">  
+
+</canvas>
+<script type="text/javascript">
+
+var c=document.getElementById("myCanvas");  
+var ctx=c.getContext("2d");  
+var Logo = new Image();
+Logo.src ="logo.png";
+Logo.onload = function(){
+
+
+// Create gradient
+var grd=ctx.createLinearGradient(0,0,1920,0);
+grd.addColorStop(0,"#000000");
+
+
+// Fill with gradient
+ctx.fillStyle=grd;
+ctx.fillRect(0,33,1920,60);
+ctx.drawImage(Logo,212,0,825,825,0,0,140,140);
+
+ctx.font="50px Arial";
+ctx.fillStyle = "#CFCFCF";
+ctx.fillText("Family",130,80);
+ctx.font="20px Arial";
+ctx.fillStyle = "#CFCFCF";
+ctx.fillText("--Powered by wuch15",330,80);
+
+
+}
+
+</script>
+
 <br/>
 <img src="chicken1.jpg" width="270" height="180">
 <br/>
