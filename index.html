@@ -2,10 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>无54Family</title>
+<title>无标题文档</title>
 <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
 <link rel="stylesheet" href="text.css" media="screen" />
-<link href="css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <!--
 <canvas id="myCanvas" width="1680" height="1100"
@@ -385,14 +384,24 @@ ul#slider li:not(:target) {
 
 </div>
 
-
+<style>
+.bt{
+position:absolute; left:376px; top:407px;
+background:url(study.png);
+width:146px;
+height:151px
+}
+.bt:hover {
+	background:url(study2.png);
+} 
+</style>
 
 
 <div class="alsp">我们的Family</div>
 <div class="alsp2">清华大学电子工程系无54班网站</div>
 <div class="alsp3">班级大新闻</div>
-<form id="form1" name="form1" method="post" action="index2.html">
-<input id="study" name="submit" type="image" value="ee" src="study.png" style="position:absolute; left:376px; top:407px;">
+<form id="form1" name="form1" method="post">
+<a href="index2.html" id="study" name="submit" value=" " class="bt";></a>
 </form>
 
 <form id="form2" name="form2" method="post" action="index2.html">
@@ -418,13 +427,13 @@ ul#slider li:not(:target) {
 <script src="canvas.js"></script>
 
 <script>
-var studybt = $('#study');
+/*var studybt = $('#study');
 studybt.on('mouseenter', function () {
    document.getElementById("study").src="study2.png"; 
 });
 studybt.on('mouseleave', function () {
    document.getElementById("study").src="study.png"; 
-});
+});*/
 
 
 var propagatebt = $('#propagate');
