@@ -1,0 +1,179 @@
+#container{
+  width:500px;
+  margin:auto;
+}
+
+
+/*neeeeoooon*/
+p{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 20px;
+}
+
+a{
+  text-decoration:none; 
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+p:nth-child(1) a{
+	font-size: 24px;
+	font-family: "微软雅黑";
+  color:#FFFFFF;
+  position:absolute; left:873px; top:50px; 
+}
+p:nth-child(1) a:hover{
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate; 
+}
+
+
+/*glow for webkit*/
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #FFFFFF,
+               0 0 70px  #FFFFFF,
+               0 0 80px  #FFFFFF,
+               0 0 100px #FFFFFF,
+               0 0 150px #FFFFFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #FFFFFF,
+               0 0 35px #FFFFFF,
+               0 0 40px #FFFFFF,
+               0 0 50px #FFFFFF,
+               0 0 75px #FFFFFF;
+  }
+}
+
+@-moz-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #FFFFFF,
+               0 0 70px  #FFFFFF,
+               0 0 80px  #FFFFFF,
+               0 0 100px #FFFFFF,
+               0 0 150px #FFFFFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #FFFFFF,
+               0 0 35px #FFFFFF,
+               0 0 40px #FFFFFF,
+               0 0 50px #FFFFFF,
+               0 0 75px #FFFFFF;
+  }
+}
+
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  #FFFFFF,
+               0 0 70px  #FFFFFF,
+               0 0 80px  #FFFFFF,
+               0 0 100px #FFFFFF,
+               0 0 150px #FFFFFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #FFFFFF,
+               0 0 35px #FFFFFF,
+               0 0 40px #FFFFFF,
+               0 0 50px #FFFFFF,
+               0 0 75px #FFFFFF;
+  }
+}
+
+
+
+p:nth-child(2) a{
+	font-size: 24px;
+	font-family: "微软雅黑";
+  color:#FFFFFF;
+  position:absolute; left:953px; top:50px; 
+}
+p:nth-child(2) a:hover{
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate; 
+}
+
+
+p:nth-child(3) a{
+	font-size: 24px;
+	font-family: "微软雅黑";
+  color:#FFFFFF;
+  position:absolute; left:1033px; top:50px; 
+}
+p:nth-child(3) a:hover{
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate; 
+}
+
+p:nth-child(4) a{
+	font-size: 24px;
+	font-family: "微软雅黑";
+  color:#FFFFFF;
+  position:absolute; left:1113px; top:50px; 
+}
+p:nth-child(4) a:hover{
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate; 
+}
+
+p:nth-child(5) a{
+	font-size: 24px;
+	font-family: "微软雅黑";
+  color:#FFFFFF;
+  position:absolute; left:1193px; top:50px; 
+}
+p:nth-child(5) a:hover{
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate; 
+}
+
+p:nth-child(6) a{
+	font-size: 24px;
+	font-family: "微软雅黑";
+  color:#FFFFFF;
+  position:absolute; left:1273px; top:50px; 
+}
+p:nth-child(6) a:hover{
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate; 
+}
+p:nth-child(7) a{
+	font-size: 18px;
+	font-family: "微软雅黑";
+  color:#FFFFFF;
+  position:absolute; left:1245px; top:417px; 
+}
+p:nth-child(7) a:hover{
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate; 
+}

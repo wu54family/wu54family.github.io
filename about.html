@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+<link rel="stylesheet" href="text.css" media="screen" />
+
+</head>
+<!--
+<canvas id="myCanvas" width="1680" height="1100"
+style="border:1px solid #FFFFFF;">
+</canvas>
+-->
+<img id="frame_normal" src="frame_normal.png">
+<style>
+.alsp{
+	font-style: normal;
+	color: #FFFFFF;
+	left: 381px;
+	top: 206px;
+	position: absolute;
+	font-family: "微软雅黑";
+	font-size: 60px;
+	font-weight: 550;
+}
+.alsp2{
+	font-style: normal;
+	color: #FFFFFF;
+	left: 381px;
+	top: 295px;
+	position: absolute;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	font-weight: 600;
+}
+.alsp3{
+	font-style: normal;
+	color: #FFFFFF;
+	left: 1040px;
+	top: 415px;
+	position: absolute;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.newsText {
+  font-family:"微软雅黑";
+  color: #FFFFFF;
+  position: absolute;
+  
+}
+.newspos1{
+  left: 950px;
+  top: 450px;
+}
+.newspos2{
+  left: 950px;
+  top: 490px;
+}
+.newspos3{
+  left: 950px;
+  top: 530px;
+}
+.new1{
+	position: absolute;
+  left: 880px;
+  top: 448px;
+}
+.new2{
+	position: absolute;
+  left: 880px;
+  top: 488px;
+}
+.new3{
+	position: absolute;
+  left: 770px;
+  top: 150px;
+}
+</style>
+
+<style>
+.burning {
+  color: white;
+  font-size: 48px;
+  font-family: "微软雅黑";
+}
+.burning2 {
+  color: white;
+  font-size: 24px;
+}
+</style>
+
+<script src="js/jquery.burn.min.js"></script>
+<script src="js/jquery.burn.minblue.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/scriptsblue.js"></script>
+
+
+<p class="burning new3" style="">关于我们</p>
+<div class="newsText" style="left: 380px;top: 258px;font-size: 24px;">网站介绍：</div>
+<div class="newsText" style="left: 380px;top: 295px;width:950px;font-size: 18px;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 本网站是清华大学电子工程系无54班官方网站，现阶段由武楚涵负责网站前端建设。现阶段由于没有搭建服务器，功能上极为有限，将在未来逐渐开发。目前暂定主要分区6个以及新闻、相册（新闻和相册属于宣传分区）和项目分区，之后也可能增加或者修改。作为班级的一名成员，我也希望有兴趣的同学们能参与进网站的开发和维护，发挥各位的聪明才智，提出宝贵的建议，共同建设一个更好的无54Family。</div>
+<div class="newsText" style="left: 380px;top: 395px;font-size: 24px;">开发人员：</div>
+<div class="newsText" style="left: 380px;top: 432px;font-size: 18px;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 武楚涵：wuch15@mails.tsinghua.edu.cn</div>
+
+<pre style="position: absolute;left: 380px;top: 398px; color: white; "></pre>
+
+<div id="container">
+  <p><a href="#" id="mainpage">
+    主页
+  </a></p>
+  <p><a href="#" id="aboutus">
+    关于
+  </a></p>
+  <p><a href="#" id="learn">
+    学习
+  </a></p>
+   <p><a href="#" id="broad">
+    宣传
+  </a></p>
+   <p><a href="#" id="project">
+    项目
+  </a></p>
+   <p><a href="#" id="contact">
+    联系
+  </a></p>
+<div style="text-align:center;clear:both">
+
+<script>
+var mainpage = $('#mainpage');
+mainpage.on('click', function () {
+	window.location.href="index.html";
+});
+
+var aboutus = $('#aboutus');
+aboutus.on('click', function () {
+    alert('Hello!');
+});
+
+var learn = $('#learn');
+learn.on('click', function () {
+    alert('Hello!');
+});
+
+var broad = $('#broad');
+broad.on('click', function () {
+    alert('Hello!');
+});
+
+var project = $('#project');
+project.on('click', function () {
+    alert('Hello!');
+});
+
+var contact = $('#contacter');
+contact.on('click', function () {
+    alert('Hello!');
+});
+</script>
+
+
+
+<script src="canvas.js"></script>
+
+
+<body background="background.jpg" background-size:100% 100%></body>
+
+</html>
