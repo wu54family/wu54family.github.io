@@ -16,6 +16,7 @@ a{
 }
 
 .af1{
+	float:left;
 	font-size: 24px;
 	font-family: "微软雅黑";
 	font-weight: bold;
@@ -23,6 +24,85 @@ a{
   position:absolute; left:873px; top:50px; 
 }
 .af1:hover{
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate; 
+}
+
+
+.af2{
+float:left;
+	font-size: 24px;
+	font-family: "微软雅黑";
+  color:#FFFFFF;font-weight: bold;
+  position:absolute; left:953px; top:50px; 
+}
+.af2:hover{
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate; 
+}
+
+
+.af3{
+float:left;
+	font-size: 24px;
+	font-family: "微软雅黑";
+  color:#FFFFFF;font-weight: bold;
+  position:absolute; left:1033px; top:50px; 
+}
+.af3:hover{
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate; 
+}
+
+.af4{
+float:left;
+	font-size: 24px;
+	font-family: "微软雅黑";
+  color:#FFFFFF;font-weight: bold;
+  position:absolute; left:1113px; top:50px; 
+}
+.af4:hover{
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate; 
+}
+
+.af5{
+float:left;
+	font-size: 24px;
+	font-family: "微软雅黑";
+  color:#FFFFFF;font-weight: bold;
+  position:absolute; left:1193px; top:50px; 
+}
+.af5:hover{
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate; 
+}
+
+.af6{
+float:left;
+	font-size: 24px;
+	font-family: "微软雅黑";
+  color:#FFFFFF;font-weight: bold;
+  position:absolute; left:1273px; top:50px; 
+}
+.af6:hover{
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate; 
+}
+.af7{
+float:left;
+	font-size: 18px;
+	font-family: "微软雅黑";
+  color:#FFFFFF;font-weight: bold;
+  position:absolute; left:1245px; top:417px; 
+}
+.af7:hover{
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
   -moz-animation: neon1 1.5s ease-in-out infinite alternate;
   animation: neon1 1.5s ease-in-out infinite alternate; 
@@ -99,76 +179,3 @@ a{
   }
 }
 
-
-
-.af2{
-	font-size: 24px;
-	font-family: "微软雅黑";
-  color:#FFFFFF;font-weight: bold;
-  position:absolute; left:953px; top:50px; 
-}
-.af2:hover{
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate; 
-}
-
-
-.af3{
-	font-size: 24px;
-	font-family: "微软雅黑";
-  color:#FFFFFF;font-weight: bold;
-  position:absolute; left:1033px; top:50px; 
-}
-.af3:hover{
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate; 
-}
-
-.af4{
-	font-size: 24px;
-	font-family: "微软雅黑";
-  color:#FFFFFF;font-weight: bold;
-  position:absolute; left:1113px; top:50px; 
-}
-.af4:hover{
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate; 
-}
-
-.af5{
-	font-size: 24px;
-	font-family: "微软雅黑";
-  color:#FFFFFF;font-weight: bold;
-  position:absolute; left:1193px; top:50px; 
-}
-.af5:hover{
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate; 
-}
-
-.af6{
-	font-size: 24px;
-	font-family: "微软雅黑";
-  color:#FFFFFF;font-weight: bold;
-  position:absolute; left:1273px; top:50px; 
-}
-.af6:hover{
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate; 
-}
-.af7{
-	font-size: 18px;
-	font-family: "微软雅黑";
-  color:#FFFFFF;font-weight: bold;
-  position:absolute; left:1245px; top:417px; 
-}
-.af7:hover{
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate; 
-}
