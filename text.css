@@ -18,6 +18,7 @@ a{
 }
 
 .af1{
+	width:50px;
 	float:left;
 	font-size: 24px;
 	font-family: "微软雅黑";
@@ -33,6 +34,7 @@ a{
 
 
 .af2{
+	width:50px;
 float:left;
 	font-size: 24px;
 	font-family: "微软雅黑";
@@ -47,6 +49,7 @@ float:left;
 
 
 .af3{
+	width:50px;
 float:left;
 	font-size: 24px;
 	font-family: "微软雅黑";
@@ -60,6 +63,7 @@ float:left;
 }
 
 .af4{
+	width:50px;
 float:left;
 	font-size: 24px;
 	font-family: "微软雅黑";
@@ -73,6 +77,7 @@ float:left;
 }
 
 .af5{
+	width:50px;
 float:left;
 	font-size: 24px;
 	font-family: "微软雅黑";
@@ -86,6 +91,7 @@ float:left;
 }
 
 .af6{
+	width:50px;
 float:left;
 	font-size: 24px;
 	font-family: "微软雅黑";
@@ -98,6 +104,7 @@ float:left;
   animation: neon1 1.5s ease-in-out infinite alternate; 
 }
 .af7{
+	width:50px;
 float:left;
 	font-size: 18px;
 	font-family: "微软雅黑";
