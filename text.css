@@ -6,9 +6,7 @@
 
 
 /*neeeeoooon*/
-p{
-	text-align:center;
-}
+
 
 a{
   text-decoration:none; 
@@ -19,12 +17,13 @@ a{
 
 .af1{
 	width:50px;
+	height:90px;
+	line-height:90px;
 	float:left;
 	font-size: 24px;
-	font-family: "微软雅黑";
-	font-weight: bold;
+	font-family: "黑体";
   color:#FFFFFF;
-  position:absolute; left:873px; top:50px; 
+  margin-left:35px;
 }
 .af1:hover{
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
@@ -35,11 +34,13 @@ a{
 
 .af2{
 	width:50px;
+	height:90px;
+	line-height:90px;
 float:left;
 	font-size: 24px;
-	font-family: "微软雅黑";
-  color:#FFFFFF;font-weight: bold;
-  position:absolute; left:953px; top:50px; 
+	font-family: "黑体";
+  color:#FFFFFF;
+  margin-left:25px;
 }
 .af2:hover{
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
@@ -50,11 +51,13 @@ float:left;
 
 .af3{
 	width:50px;
-float:left;
+	height:90px;
+	line-height:90px;
+    float:left;
 	font-size: 24px;
-	font-family: "微软雅黑";
-  color:#FFFFFF;font-weight: bold;
-  position:absolute; left:1033px; top:50px; 
+	font-family: "黑体";
+  color:#FFFFFF;
+  margin-left:25px;
 }
 .af3:hover{
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
@@ -64,11 +67,13 @@ float:left;
 
 .af4{
 	width:50px;
-float:left;
+	height:90px;
+	line-height:90px;
+    float:left;
 	font-size: 24px;
-	font-family: "微软雅黑";
-  color:#FFFFFF;font-weight: bold;
-  position:absolute; left:1113px; top:50px; 
+	font-family: "黑体";
+  color:#FFFFFF;
+  margin-left:25px;
 }
 .af4:hover{
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
@@ -78,11 +83,13 @@ float:left;
 
 .af5{
 	width:50px;
+	height:90px;
+	line-height:90px;
 float:left;
 	font-size: 24px;
-	font-family: "微软雅黑";
-  color:#FFFFFF;font-weight: bold;
-  position:absolute; left:1193px; top:50px; 
+	font-family: "黑体";
+  color:#FFFFFF;
+  margin-left:25px;
 }
 .af5:hover{
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
@@ -92,11 +99,13 @@ float:left;
 
 .af6{
 	width:50px;
+	height:90px;
+	line-height:90px;
 float:left;
 	font-size: 24px;
-	font-family: "微软雅黑";
-  color:#FFFFFF;font-weight: bold;
-  position:absolute; left:1273px; top:50px; 
+	font-family: "黑体";
+  color:#FFFFFF;
+  margin-left:25px;
 }
 .af6:hover{
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
@@ -107,9 +116,8 @@ float:left;
 	width:50px;
 float:left;
 	font-size: 18px;
-	font-family: "微软雅黑";
-  color:#FFFFFF;font-weight: bold;
-  position:absolute; left:1245px; top:417px; 
+	font-family: "黑体";
+  color:#FFFFFF;
 }
 .af7:hover{
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
