@@ -2,186 +2,97 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
 <title>无54Famliy</title>
 <script language="JavaScript" src="jquery.js"></script>
 <link rel="stylesheet" href="text.css" media="screen" />
 </head>
-<!--
-<canvas id="myCanvas" width="1680" height="1100"
-style="border:1px solid #FFFFFF;">
-</canvas>
--->
-<style>
-.box-shadow{  
-position: absolute; 
-left: 850px; 
-top: 412px;
-width:468px;
-height:310px;
-background:#666666;
-border:none;
- -webkit-filter: blur(2px); /* Chrome, Opera */
-       -moz-filter: blur(2px);
-        -ms-filter: blur(2px);   
-            filter: blur(2px);   
-} 
-</style> 
-<img id="frame" src="frame.png">
-<img id="newsframe" class="box-shadow">
-<img id="newsbar" src="newsbar.png" style="position: absolute; left: 841px; top: 410px;">
+
+
+
 <style>
 .alsp{
 	font-style: normal;
 	color: #FFFFFF;
-	left: 379px;
-	top: 170px;
-	position: absolute;
+	left: 22%;
+	top: 23%;
+	position:absolute;
+	top: 10%;
+	z-index:20;
 	font-family: "微软雅黑";
-	font-size: 66px;
+	font-size: 4.125em;
 	font-weight: 550;
 }
 .alsp2{
 	font-style: normal;
 	color: #FFFFFF;
-	left: 379px;
-	top: 270px;
+	left: 22%;
+	top: 36%;
 	position: absolute;
 	font-family: "微软雅黑";
-	font-size: 28px;
+	font-size: 1.75em;
 	font-weight: 600;
 }
+
+
+
 .alsp3{
-	width:200px;
+width:200px;
 	font-style: normal;
 	color: #FFFFFF;
-	left: 1030px;
-	top: 420px;
-	position: absolute;
-	font-family: "黑体";
-	font-size: 20px;
+	position: relative;
+	font-family: "微软雅黑";
+	font-size: 1.2em;
 	font-weight: bold;
 }
 
+
+
 .newsText {
-  font-family:"黑体";
+  font-family:"微软雅黑";
   color: #FFFFFF;
-  font-size: 18px;
-  position: absolute;
+  font-size: 1.125rem;
+  position: relative;
   
 }
+
+
 .newspos1{
 width:500px;
-  left: 935px;
-  top: 465px;
+
 }
-.newspos2{width:500px;
-  left: 935px;
-  top: 505px;
+.newspos2{
+width:500px;
+
 }
-.newspos3{width:500px;
-  left: 935px;
-  top: 545px;
+.newspos3{
+width:500px;
+
 }
 .new1{
-	position: absolute;
-  left: 865px;
-  top: 460px;
+	  position: relative;
+
 }
 .new2{
-	position: absolute;
-  left: 865px;
-  top: 500px;
+  position: relative;
+
 }
 .new3{
-	position: absolute;
-  left: 865px;
-  top: 540px;
+	  position: relative;
+
 }
 </style>
 
 <style>
 .burning {
   color: white;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .burning2 {
   color: white;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 </style>
-<script src="js/jquery.burn.min.js"></script>
-<script src="js/jquery.burn.minblue.js"></script>
-<script src="js/scripts.js"></script>
-<script src="js/scriptsblue.js"></script>
-
-<div id="news">
-<p class="burning2 new1">New:</p>
-<a class="newsText newspos1">班级网站诞生23333333</a>
-<p class="burning2 new2">New:</p>
-<a class="newsText newspos2">老司机张恺文深夜飙车</a>
-<p class="burning new3">Hot:</p>
-<a class="newsText newspos3">你画我猜</a>
-
-
-
-
-</div>
-<div id="container">
-  <a href="#" class="af1" id="mainpage">
-    主页
-  </a>
-   <a href="#" class="af2" id="aboutus">
-    关于
-  </a>
-  <a href="#" class="af3" id="learn">
-    学习
-  </a>
-  <a href="#" class="af4" id="broad">
-    宣传
-  </a>
-  <a href="#" class="af5" id="project">
-    项目
-  </a>
-  <a href="#" class="af6" id="contact">
-    联系
-  </a>
-  <a href="#" class="af7" id="more">
-    More+
-  </a>
-</div>
-
-<script>
-var mainpage = $('#mainpage');
-mainpage.on('click', function () {
-	window.location.href="index.html";
-});
-
-var aboutus = $('#aboutus');
-aboutus.on('click', function () {
-    window.location.href="about.html";
-});
-
-var learn = $('#learn');
-learn.on('click', function () {
-    alert('Hello!');
-});
-
-var broad = $('#broad');
-broad.on('click', function () {
-    alert('Hello!');
-});
-
-var project = $('#project');
-project.on('click', function () {
-    alert('Hello!');
-});
-
-var contact = $('#contacter');
-contact.on('click', function () {
-    alert('Hello!');
-});
-</script>
-
 
 <style type="text/css">
 
@@ -196,20 +107,16 @@ a {outline: none;}
 
 
 h1 {
-	margin: 30px 0 0 0;
-	text-shadow: #d6d6d6 0px 1px 2px;
+	margin: 1.875rem 0 0 0;
+	text-shadow: #d6d6d6 0 0.0625rem 0.125rem;
 	color: #030303
 }
 
 h3 {
-	margin: 10px 0 10px 0;
-	text-shadow: #d6d6d6 0px 1px 2px;
+	margin: 0.625rem 0 0.625rem 0;
+	text-shadow: #d6d6d6 0 0.0625rem 0.125rem;
 	color: #030303
 }
-
-
-
-/* Fades in the slideshow. Hides the initial animation on the li tag. Ooops!! */
 
 @-webkit-keyframes fadeIn {
 	0% {
@@ -228,10 +135,10 @@ h3 {
 
 #box {
     position:absolute; 
-	left:900px; 
-	top:103px;
+	left:59%; 
+	top:11%;
 	text-align: left;
-	width: 350px;
+	width: 23%;
 	
 	margin: 30px auto 0 auto;
 	background: #000;
@@ -364,6 +271,221 @@ ul#slider li:not(:target) {
 
 </style>
 
+<style>
+.bt{
+position:relative; left:22%; top:50%;
+background:url(study.png);
+width:146px;
+height:151px
+}
+.bt:hover {
+	background:url(study2.png);
+} 
+
+.bt2{
+position:relative; left:32%; top:50%;
+background:url(propagate.png);
+width:146px;
+height:151px
+}
+.bt2:hover {
+	background:url(propagate2.png);
+} 
+
+
+.bt3{
+position:relative; left:42%; top:50%;
+background:url(game.png);
+width:146px;
+height:151px
+}
+.bt3:hover {
+	background:url(game2.png);
+} 
+
+.bt4{
+position:relative; left:22%; top:72%;
+background:url(contact.png);
+width:146px;
+height:151px
+}
+.bt4:hover {
+	background:url(contact2.png);
+} 
+
+.bt5{
+position:relative;left:32%; top:72%;
+background:url(life.png);
+width:146px;
+height:151px
+}
+.bt5:hover {
+	background:url(life2.png);
+} 
+
+.bt6{
+position:relative; left:42%;top:72%;
+background:url(sports.png);
+width:146px;
+height:151px
+}
+.bt6:hover {
+	background:url(sports2.png);
+} 
+</style>
+
+
+<style>
+.box-shadow{  
+position: relative; 
+
+max-width:468px;
+height:310px;
+background:#666666;
+border:none;
+ -webkit-filter: blur(2px); /* Chrome, Opera */
+       -moz-filter: blur(2px);
+        -ms-filter: blur(2px);   
+            filter: blur(2px);   
+} 
+
+.box2 {
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;	
+	border:none;
+	max-width: 1600px;
+	
+	height:90px;
+	background: #2c2c2c;
+	overflow: hidden;
+}
+.x-container {
+    max-width: 65.85%;
+    width: 100%;
+	height:90px;
+	background: #2c2c2c;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+.uk-container {
+    box-sizing: border-box;
+}
+
+.logo{
+box-sizing: border-box;
+z-index:30;
+display: block;
+width:220px;
+height:90px;
+float: left;
+}
+.wu{
+	font-size: 3rem;
+	font-family: "黑体";
+  color:#d3e8f1;
+      height: 100%;
+	  line-height:90px;
+}
+.fa{
+	font-size: 2.25rem;
+	font-family: "Arial";
+  color:#f0f0f0;
+  height: 90px;
+  z-index:50;
+	   line-height:90px;
+	   margin-left:20px;
+}
+.menu{
+overflow: hidden;
+z-index:30;
+display: block;
+width:600px;
+height:90px;
+float:right
+}
+</style> 
+
+<div class="box2">
+
+	<div class="uk-container x-container" >
+		<div class="logo">
+			<div class="wu">無54<a class="fa">Family</a></div>
+			
+		</div>
+	    <div id="container" class="menu">
+            <a href="#" class="af1" id="mainpage">
+            主页
+            </a>
+            <a href="#" class="af2" id="aboutus">
+            关于
+            </a>
+            <a href="#" class="af3" id="learn">
+            学习
+            </a>
+            <a href="#" class="af4" id="broad">
+            宣传
+            </a>
+            <a href="#" class="af5" id="project">
+            项目
+            </a>
+            <a href="#" class="af6" id="contact">
+            联系
+            </a>
+        </div>
+		
+	</div>
+</div>
+
+
+  
+  
+
+
+<script src="js/jquery.burn.min.js"></script>
+<script src="js/jquery.burn.minblue.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/scriptsblue.js"></script>
+
+
+
+<script>
+var mainpage = $('#mainpage');
+mainpage.on('click', function () {
+	window.location.href="index.html";
+});
+
+var aboutus = $('#aboutus');
+aboutus.on('click', function () {
+    window.location.href="about.html";
+});
+
+var learn = $('#learn');
+learn.on('click', function () {
+    alert('Hello!');
+});
+
+var broad = $('#broad');
+broad.on('click', function () {
+    alert('Hello!');
+});
+
+var project = $('#project');
+project.on('click', function () {
+    alert('Hello!');
+});
+
+var contact = $('#contacter');
+contact.on('click', function () {
+    alert('Hello!');
+});
+</script>
+
+
+
 
 
 <div id="box">
@@ -401,74 +523,26 @@ ul#slider li:not(:target) {
 
 </div>
 
-<style>
-.bt{
-position:absolute; left:376px; top:407px;
-background:url(study.png);
-width:146px;
-height:151px
-}
-.bt:hover {
-	background:url(study2.png);
-} 
-
-.bt2{
-position:absolute; left:532px; top:407px;
-background:url(propagate.png);
-width:146px;
-height:151px
-}
-.bt2:hover {
-	background:url(propagate2.png);
-} 
 
 
-.bt3{
-position:absolute; left:688px; top:407px;
-background:url(game.png);
-width:146px;
-height:151px
-}
-.bt3:hover {
-	background:url(game2.png);
-} 
 
-.bt4{
-position:absolute;  left:376px; top:576px;
-background:url(contact.png);
-width:146px;
-height:151px
-}
-.bt4:hover {
-	background:url(contact2.png);
-} 
-
-.bt5{
-position:absolute;left:532px; top:576px;
-background:url(life.png);
-width:146px;
-height:151px
-}
-.bt5:hover {
-	background:url(life2.png);
-} 
-
-.bt6{
-position:absolute; left:688px; top:576px;
-background:url(sports.png);
-width:146px;
-height:151px
-}
-.bt6:hover {
-	background:url(sports2.png);
-} 
-</style>
-
-
-<div class="alsp">我们的Family</div>
-<div class="alsp2">清华大学电子工程系无54班网站</div>
+<div id = "newsHolder">
+<img id="newsframe" class="box-shadow">
+<img id="newsbar" src="newsbar.png" style="position: relative; ">
 <a class="alsp3">班级大新闻</a>
+<div id="news">
+<p class="burning2 new1">New:</p>
+<a class="newsText newspos1">班级网站诞生23333333</a>
+<p class="burning2 new2">New:</p>
+<a class="newsText newspos2">老司机张恺文深夜飙车</a>
+<p class="burning new3">Hot:</p>
+<a class="newsText newspos3">你画我猜</a>
+  <a href="#" class="af7" id="more">
+    More+
+  </a>
+</div>
 
+</div>
 
 <form id="form1" name="form1" method="post">
 <a href="index2.html" id="study" name="submit" value=" " class="bt";></a>
