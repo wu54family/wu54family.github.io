@@ -14,33 +14,31 @@
 .alsp{
 	font-style: normal;
 	color: #FFFFFF;
-	left: 22%;
-	top: 23%;
-	position:absolute;
-	top: 10%;
+margin-top:50px;
 	z-index:20;
-	font-family: "黑体";
+	font-family: "Arial","黑体";
 	font-size: 4.125em;
 	font-weight: 550;
+	float:left;
 }
 .alsp2{
 	font-style: normal;
 	color: #FFFFFF;
-	left: 22%;
-	top: 36%;
-	position: absolute;
+margin-top:30px;
 	font-family: "黑体";
 	font-size: 1.75em;
 	font-weight: 600;
+	float:left;
 }
 
 
 
 .alsp3{
-width:200px;
+float:left;
 	font-style: normal;
 	color: #FFFFFF;
-	position: relative;
+	margin-left:190px;
+	margin-top:10px;
 	font-family: "黑体";
 	font-size: 1.2em;
 	font-weight: bold;
@@ -52,34 +50,51 @@ width:200px;
   font-family:"黑体";
   color: #FFFFFF;
   font-size: 1.125rem;
-  position: relative;
   
 }
 
 
 .newspos1{
-width:500px;
+position:absolute;
+left:60px;
+top:55px;
+width:300px;
 
 }
 .newspos2{
 width:500px;
-
+position:absolute;
+left:60px;
+top:95px;
 }
 .newspos3{
 width:500px;
-
+position:absolute;
+left:60px;
+top:135px;
 }
 .new1{
-	  position: relative;
+position:absolute;
+top:50px;
+left:10px;
+width:50px;
+height:30px;
 
 }
 .new2{
-  position: relative;
+position:absolute;
+top:90px;
+left:10px;
+width:50px;
+height:30px;
 
 }
 .new3{
-	  position: relative;
-
+position:absolute;
+top:130px;
+left:10px;
+width:50px;
+height:30px;
 }
 </style>
 
@@ -133,25 +148,6 @@ h3 {
 	}
 }
 
-#box {
-    position:absolute; 
-	left:59%; 
-	top:11%;
-	text-align: left;
-	width: 23%;
-	
-	margin: 30px auto 0 auto;
-	background: #000;
-	overflow: hidden;
-	border: 10px solid #000;
-	-webkit-box-shadow: #131313 0px 2px 10px;
-	-moz-box-shadow: #131313 0px 3px 10px;
-	box-shadow: #131313 0px 3px 10px;	
-	/*-webkit-animation-name: fadeIn; 
-  	-webkit-animation-duration: 3s; 
-  	-webkit-animation-iteration-count: 1;
-  	-webkit-animation-delay: 0s;*/
-}
 
 ul#slider{
 	-webkit-border-radius: 10px;
@@ -273,20 +269,22 @@ ul#slider li:not(:target) {
 
 <style>
 .bt{
-position:relative; left:22%; top:50%;
+float:left;
 background:url(study.png);
 width:146px;
-height:151px
+height:151px;
 }
 .bt:hover {
 	background:url(study2.png);
 } 
 
 .bt2{
-position:relative; left:32%; top:50%;
 background:url(propagate.png);
+float:left;
+
+margin-left:10px;
 width:146px;
-height:151px
+height:151px;
 }
 .bt2:hover {
 	background:url(propagate2.png);
@@ -294,40 +292,47 @@ height:151px
 
 
 .bt3{
-position:relative; left:42%; top:50%;
+float:left;
+margin-left:10px;
 background:url(game.png);
 width:146px;
-height:151px
+height:151px;
 }
 .bt3:hover {
 	background:url(game2.png);
 } 
 
 .bt4{
-position:relative; left:22%; top:72%;
+float:left;
+
 background:url(contact.png);
 width:146px;
-height:151px
+height:151px;
+margin-top:10px;
 }
 .bt4:hover {
 	background:url(contact2.png);
 } 
 
 .bt5{
-position:relative;left:32%; top:72%;
+float:left;
 background:url(life.png);
 width:146px;
-height:151px
+height:151px;
+margin-top:10px;
+margin-left:10px;
 }
 .bt5:hover {
 	background:url(life2.png);
 } 
 
 .bt6{
-position:relative; left:42%;top:72%;
+float:left;
 background:url(sports.png);
 width:146px;
-height:151px
+height:151px;
+margin-top:10px;
+margin-left:10px;
 }
 .bt6:hover {
 	background:url(sports2.png);
@@ -336,35 +341,62 @@ height:151px
 
 
 <style>
-.box-shadow{  
-position: relative; 
-
-max-width:468px;
-height:310px;
+.box-shadow{ 
+position:relative;
+float:left;
+margin-left:15px; 
+width:468px;
+height:303px;
 background:#666666;
-border:none;
- -webkit-filter: blur(2px); /* Chrome, Opera */
+border:none;/*
+ -webkit-filter: blur(2px);  Chrome, Opera 
        -moz-filter: blur(2px);
         -ms-filter: blur(2px);   
-            filter: blur(2px);   
+            filter: blur(2px);   */
 } 
+.boxblack {
+    width:100%;
+	border:none;
+	height:90px;
+	background: #2c2c2c;
+	overflow: hidden;
+}
 
- @media only screen and (min-width: 641px) {
+ @media only screen and (max-width: 767px){
  .box2 {
 
     z-index: 10;	
 	border:none;
-	max-width: 1000px;
-	min-width:600px;
+	width:100%
+	max-width:768px;
 	height:90px;
 	background: #2c2c2c;
 	overflow: hidden;
    }
+   .x-container {
+    max-width: 1000px;
+    width: 100%;
+	height:90px;
+	background: #2c2c2c;
+    margin-left: 30px;
+    display: table;
+	top:0px;
+	z-index:30;
+	clear:both;
+}
+  .menu{
+overflow: hidden;
+z-index:30;
+display: block;
+width:100%;
+height:90px;
+float:right;
+}
  }
-@media only screen and (min-width: 1200px) {
-.box2 {
 
-    z-index: 10;	
+@media only screen and (min-width: 768px) {
+.box2 {
+position:relative;	
 	border:none;
 	max-width: 1600px;
 	min-width:1200px;
@@ -372,19 +404,36 @@ border:none;
 	background: #2c2c2c;
 	overflow: hidden;
 }
-}
 
 .x-container {
-    max-width: 65.85%;
+    max-width: 1000px;
     width: 100%;
 	height:90px;
 	background: #2c2c2c;
     margin-left: auto;
     margin-right: auto;
     display: table;
+	top:0px;
+	z-index:30;
+	clear:both;
 }
+
+
+.menu{
+overflow: hidden;
+z-index:30;
+display: block;
+width:800px;
+height:90px;
+float:right;
+}
+
+}
+/*--------------------*/
+
 .uk-container {
-    box-sizing: border-box;
+    
+	
 }
 
 .logo{
@@ -411,24 +460,78 @@ float: left;
 	   line-height:90px;
 	   margin-left:20px;
 }
-.menu{
-overflow: hidden;
-z-index:30;
+
+.info{
+margin: 0; padding: 0;
+height:250px;
+}
+.frame{
+max-width: 1600px;
+	min-width:1200px;
+height:250px;
+background:url(frame.png) no-repeat 0px 0px;
+}
+.framebox{
+width:1000px;
+height:250px;
 display: block;
-width:600px;
-height:90px;
+ margin-left: auto;
+    margin-right: auto;
+}
+#box {
+float: right;
+	text-align: left;
+	width: 350px;
+	margin-top: 20px;
+	margin-right:40px;
+	background: #000;
+	overflow: hidden;
+	border: 10px solid #000;
+	-webkit-box-shadow: #131313 0px 2px 10px;
+	-moz-box-shadow: #131313 0px 3px 10px;
+	box-shadow: #131313 0px 3px 10px;	
+	/*-webkit-animation-name: fadeIn; 
+  	-webkit-animation-duration: 3s; 
+  	-webkit-animation-iteration-count: 1;
+  	-webkit-animation-delay: 0s;*/
+}
+.bte{
+width:1000px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.bttt{
+width:500px;
+height:320px;
 float:left;
+	margin-top:10px;position:relative;
+	overflow: hidden;
+}
+
+.nttt{box-sizing: border-box;display: table;
+width:500px;
+height:320px;
+float:left;
+	margin-top:15px;
+}
+
+
+.newsbar{
+float:left;
+margin-left:-8px;
+width:476px;
+height:44px;
+background:url(newsbar.png) no-repeat 0px 0px;
 }
 </style> 
 
 <div class="box2">
-
+    <div class="boxblack">
 	<div class="uk-container x-container" >
 		<div class="logo">
 			<div class="wu">無54<a class="fa">Family</a></div>
 			
 		</div>
-	    <div id="container" class="menu">
             <a href="#" class="af1" id="mainpage">
             主页
             </a>
@@ -447,16 +550,100 @@ float:left;
             <a href="#" class="af6" id="contact">
             联系
             </a>
-        </div>
 		
+	</div>
 	</div>
 </div>
 
+<div class="info">
+<div class = "frame">
+<div class = "framebox">
+<div id="box">
+
+<ul id="slider">
+	<li id="1" ><a href="about.html">
+		<img src="images/grass-bl.jpg" alt="grass-blades" width="350" height="150" />
+		<p><span>测试4</span></p></a>
+	</li>
+	<li id="2">
+		<img src="images/ladybug.jpg" alt="ladybug" width="350" height="150" />
+		<p><span>测试1</span></p>
+	</li>
+	<li id="3">
+		<img src="images/lotus.jpg" alt="lotus" width="350" height="150" />
+		<p><span>测试2</span></p>
+	</li>
+	<li id="4">
+		<img src="images/stones.jpg" alt="stones" width="350" height="150" />
+		<p><span>测试3</span></p>
+	</li>
+		<li id="5">
+		<img src="images/img03.jpg" alt="stones" width="350" height="150" />
+		<p><span>老司机张恺文发车</span></p>
+	</li>
+</ul>
+
+<ul id="thumb">
+	<li><a href="#1"><img src="images/grass-bl.jpg" alt="grass-blades" width="30" height="30" /></a></li>
+	<li><a href="#2"><img src="images/ladybug.jpg" alt="ladybug" width="30" height="30" /></a></li>
+	<li><a href="#3"><img src="images/lotus.jpg" alt="lotus" width="30" height="30" /></a></li>
+	<li><a href="#4"><img src="images/stones.jpg" alt="stones" width="30" height="30" /></a></li>
+	<li><a href="#5"><img src="images/img03.jpg" alt="stones" width="30" height="30" /></a></li>
+</ul>
+</div>
+<div class="alsp">我们的Family</div>
+<div class="alsp2">清华大学电子工程系无54班网站</div>
+
+
+
+</div>
+
+</div>
+</div>
+  
+  <div class="bte">
+   
+<div class="bttt">
+
+<a href="index2.html"><div id="study" class="bt";></div></a>
+
+<a href="index2.html"><div  id="propagate" class="bt2"></div></a>
+
+<a href="index2.html"><div  id="game" class="bt3"></div></a>
+
+<a href="index2.html"><div  id="contacter" class="bt4"></div></a>
+
+<a href="index2.html"><div  id="life" class="bt5"></div></a>
+
+<a href="index2.html"><div  id="sports" class="bt6"></div></a>
+
+</div> 
+<div class="nttt">
+
+<div id="newsframe" class="box-shadow"><a href="canvas.js" class="af7" id="more">More+</a>
+<div id="newsbar" class="newsbar" >
+ <a class="alsp3">班级大新闻</a>
+ 
+
+</div>
+
+<p class="burning2 new1">New:</p>
+<a href="index2.html" class="newsText newspos1">班级网站诞生23333333</a>
+
+<p class="burning2 new2">New:</p>
+<a class="newsText newspos2">老司机张恺文深夜飙车</a>
+<p class="burning new3">Hot:</p>
+<a class="newsText newspos3">你画我猜</a>
+ 
+
+  </div>
+
 
   
   
-
-
+  
+  
+  
 <script src="js/jquery.burn.min.js"></script>
 <script src="js/jquery.burn.minblue.js"></script>
 <script src="js/scripts.js"></script>
@@ -494,93 +681,22 @@ var contact = $('#contacter');
 contact.on('click', function () {
     alert('Hello!');
 });
+var login = $('#login');
+login.on('click', function () {
+    alert('Hello!');
+});
 </script>
 
 
 
 
 
-<div id="box">
-
-<ul id="slider">
-	<li id="1" ><a href="about.html">
-		<img src="images/grass-bl.jpg" alt="grass-blades" width="350" height="150" />
-		<p><span>测试4</span></p></a>
-	</li>
-	<li id="2">
-		<img src="images/ladybug.jpg" alt="ladybug" width="350" height="150" />
-		<p><span>测试1</span></p>
-	</li>
-	<li id="3">
-		<img src="images/lotus.jpg" alt="lotus" width="350" height="150" />
-		<p><span>测试2</span></p>
-	</li>
-	<li id="4">
-		<img src="images/stones.jpg" alt="stones" width="350" height="150" />
-		<p><span>测试3</span></p>
-	</li>
-		<li id="5">
-		<img src="images/img03.jpg" alt="stones" width="350" height="150" />
-		<p><span>老司机张恺文发车</span></p>
-	</li>
-</ul>
-
-<ul id="thumb">
-	<li><a href="#1"><img src="images/grass-bl.jpg" alt="grass-blades" width="30" height="30" /></a></li>
-	<li><a href="#2"><img src="images/ladybug.jpg" alt="ladybug" width="30" height="30" /></a></li>
-	<li><a href="#3"><img src="images/lotus.jpg" alt="lotus" width="30" height="30" /></a></li>
-	<li><a href="#4"><img src="images/stones.jpg" alt="stones" width="30" height="30" /></a></li>
-	<li><a href="#5"><img src="images/img03.jpg" alt="stones" width="30" height="30" /></a></li>
-</ul>
-
-</div>
 
 
 
 
-<div id = "newsHolder">
-<img id="newsframe" class="box-shadow">
-<img id="newsbar" src="newsbar.png" style="position: relative; ">
-<a class="alsp3">班级大新闻</a>
-<div id="news">
-<p class="burning2 new1">New:</p>
-<a class="newsText newspos1">班级网站诞生23333333</a>
-<p class="burning2 new2">New:</p>
-<a class="newsText newspos2">老司机张恺文深夜飙车</a>
-<p class="burning new3">Hot:</p>
-<a class="newsText newspos3">你画我猜</a>
-  <a href="#" class="af7" id="more">
-    More+
-  </a>
-</div>
 
-</div>
 
-<form id="form1" name="form1" method="post">
-<a href="index2.html" id="study" name="submit" value=" " class="bt";></a>
-</form>
-
-<form id="form2" name="form2" method="post">
-<a href="index2.html" id="propagate" name="submit" value=" " class="bt2"></a>
-</form>
-
-<form id="form3" name="form3" method="post">
-<a href="index2.html" id="game" name="submit" value=" " class="bt3"></a>
-</form>
-
-<form id="form4" name="form4" method="post">
-<a href="index2.html" id="contacter" name="submit" value=" " class="bt4"></a>
-</form>
-
-<form id="form5" name="form5" method="post">
-<a href="index2.html" id="life" name="submit" value=" " class="bt5"></a>
-</form>
-
-<form id="form6" name="form6" method="post">
-<a href="index2.html" id="sports" name="submit" value=" " class="bt6"></a>
-</form>
-
-<script src="canvas.js"></script>
 
 
 <body bgcolor="#262626"></body>
